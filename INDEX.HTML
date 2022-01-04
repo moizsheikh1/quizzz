@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>QUIZ APP </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div id="questiondisplay">
+  <div class="container my-5 p-3 d-flex rouded-pi" style="border-radius: 1rem; background-color: #168aad ; justify-content: space-between;" >
+      <div>
+          <h1 >QUIZ APP</h1>
+      </div>
+      <div class="my-2" style="font-size:x-large ;">
+        <b><span id="currentquestionnumber">1</span>/<span id="totalquestionnumber">10</span></b>  
+      </div>
+  </div>
+  <div class="container p-5" style="border-radius: 5rem; background-color: #168aad;">
+<h3 id="displayquestion"></h3>
+  </div>
+
+<div class="container">
+    <div class="row " id="answerparent">
+       
+            
+    </div>
+</div>
+<div class="container">
+    <div class="row " id="answerparent">
+      
+    </div>
+</div>
+<div class="py-2">
+    <div class="text-center">
+    <button onclick="nextquestion()" class="btn btn-dark ">NEXT </button>    
+    </div>
+</div>
+</div>
+<div style="display: none;" id="resultdisplay">
+    <div class="container">
+        <div>
+            <h1>YOUR MARKS IS <span >100</span>%</h1>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+  <script src="app.js"></script>
+</html> 
